@@ -1,6 +1,6 @@
 import './App.css'
 import {useState} from "react";
-
+import Feedback from './Feedback';
 
 function App() {
     const [name, setName] = useState("");
@@ -30,8 +30,10 @@ function App() {
                 </fieldset>    
             </form> 
 
+        <Feedback />
         </div>
     )
+
 }
 
 export default App;
